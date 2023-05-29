@@ -7,13 +7,15 @@ opt.number = true                -- bool: Show line numbers
 opt.scrolloff = 4                -- int:  Min num lines of context
 opt.signcolumn = "yes"           -- str:  Show the sign column
 
--- [[ Filetypes ]]
+--- [[ Filetypes ]]
 opt.encoding = 'utf8'            -- str:  String encoding to use
 opt.fileencoding = 'utf8'        -- str:  File encoding to use
 
 -- [[ Theme ]]
 opt.syntax = "ON"                -- str:  Allow syntax highlighting
-opt.termguicolors = true         -- bool: If term supports ui color then enable
+
+opt.termguicolors = false         -- bool: If term supports ui color then enable
+
 
 -- [[ Search ]]
 opt.ignorecase = true            -- bool: Ignore case in search patterns
