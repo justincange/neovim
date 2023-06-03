@@ -19,4 +19,5 @@ vim.g.loaded_netrwPlugin = 1
 -- set termguicolors to enable highlight groups
 -- empty setup using defaults
 require("nvim-tree").setup()
-
+require('Comment').setup()
+require("nvim-autopairs").setup()
